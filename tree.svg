@@ -20,44 +20,34 @@
 }
 
 .leaves path:nth-child(10n) {
-  /* fill: blue; */
   animation: loading 1s forwards, falling1 ease-in 28s infinite;
 }
 
 .leaves path:nth-child(10n+1) {
-  /* fill: blue; */
   animation: loading 2s forwards 0.5s, falling1 ease-in 28s infinite 0.5s;
 }
 .leaves path:nth-child(10n+2) {
-  /* fill: blue; */
   animation: loading 2s forwards 1s,  falling1 ease-in 28s infinite 1s;
 }
 .leaves path:nth-child(10n+3) {
-  /* fill: blue; */
   animation: loading 2s forwards 1.5s,  falling1 ease-in 28s infinite 1.5s;
 }
 .leaves path:nth-child(10n+4) {
-  /* fill: blue; */
   animation: loading 2s forwards 2s,  falling1 ease-in 28s infinite 2s;
 }
 .leaves path:nth-child(10n+5) {
-  /* fill: blue; */
   animation: loading 2s forwards 6s,  falling1 ease-in 28s infinite 6s;
 }
 .leaves path:nth-child(10n+6) {
-  /* fill: blue; */
   animation: loading 2s forwards 3.5s,  falling1 ease-in 28s infinite 3.5s;
 }
 .leaves path:nth-child(10n+7) {
-  /* fill: blue; */
   animation: loading 2s forwards 4s,  falling1 ease-in 28s infinite 4s;
 }
 .leaves path:nth-child(10n+8) {
-  /* fill: blue; */
   animation: loading 2s forwards 5s,  falling1 ease-in 28s infinite 5s;
 }
 .leaves path:nth-child(10n+9) {
-  /* fill: blue; */
   animation: loading 2s forwards 3s, falling1 ease-in 28s infinite 3s;
 }
 
@@ -89,7 +79,6 @@
   }
   40% {
     fill: #ff5227;
-    <!-- stroke: black; -->
     transform: translate(0px, 0%);
   }
   50% {
@@ -97,7 +86,6 @@
     transform: translate(3px, 15%);
   }
   60% {
-    <!-- stroke: black; -->
     fill: #f79710;
     transform: translate(1px, 35%);
   }
